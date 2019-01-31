@@ -1,0 +1,11 @@
+#!/bin/bash
+CONTADOR=$1
+SUMA=0
+while [ $CONTADOR -gt 0 ]
+do
+    echo El contador es $CONTADOR
+    let CONTADOR=CONTADOR-1
+SUMA=$((SUMA+CONTADOR))
+echo "$SUMA"
+done
+

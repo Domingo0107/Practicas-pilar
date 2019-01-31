@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "introduce el primer numero"
+read numero1
+echo "introduce el segundo numero"
+read numero2
+
+if [ $numero1 = $numero2 ]
+then
+echo "son iguales"
+else
+echo "no son iguales"
+fi

@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Introduce el primer  parametro"
+read Parametro1
+
+$Parametro1

@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ "$1" != "$2" ]
+then
+	echo "No son iguales" 
+elif [ "$2" != "$3" ]
+then
+	echo "No son iguales"
+else
+	echo "Los 3 son iguales"
+fi

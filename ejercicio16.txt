@@ -1,0 +1,12 @@
+#!/bin/bash
+if [ $# = 2 ]
+then
+if [ $1 = $2 ]
+then
+echo los parametros son iguales
+else
+echo los parametros no son iguales
+fi
+else
+echo necesita 2 parametros
+fi

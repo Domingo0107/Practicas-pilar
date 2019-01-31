@@ -1,0 +1,17 @@
+
+
+
+#!/bin/bash
+if [ "$1" = "hola" ]
+then
+echo "Es hola"
+elif [ "$1" = "adios" ]
+then
+echo "Es adios"
+elif [ "$1" = "Linux" ]
+then
+echo "Es Linux"
+else
+echo "Es otra cosa"
+fi
+echo "Chachoooo"

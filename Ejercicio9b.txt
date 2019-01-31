@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ "$1" = "Hola" ]
+then
+echo "Si es verdad"
+else
+echo "Si es falsa"
+fi
+echo "Fin"
+
+

@@ -1,0 +1,41 @@
+#!/bin/bash
+function entrada
+{
+echo ¿Quieres entrar seguro en el script? Y=SI N=NO
+read eleccion
+if [ $eleccion = "Y" ]
+then
+ejecución
+else
+echo "Hasta Luego ;)"
+fi
+}  
+function ejecución
+{
+echo "Dame un valor"
+read a
+while [ $a -gt 0 ]
+do
+   echo valor: $a
+   let a=a-1
+done
+opciones
+}
+function opciones
+{
+echo "¿Quieres salir? Y=Si N=No"
+read b
+if [ $b = "N" ]
+then
+ejecución
+elif [ $b = "Y" ]
+then
+echo "Hasta luego ;)"
+fi
+}
+entrada
+
+
+echo "/////////////////////////"
+echo "/Script de Oscar y Domin/"
+echo "/////////////////////////"

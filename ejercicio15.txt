@@ -1,0 +1,21 @@
+#!/bin/bash
+case $1
+in
+"Domingo")
+	echo Es Domingo
+;;
+"Nasa")
+	echo Es Nasa
+;;
+"Hacker")
+	echo Es Hacker
+;;
+"Linux")
+	echo Es Linux
+;;
+*)
+        echo Es otra cosa
+;;
+esac
+
+

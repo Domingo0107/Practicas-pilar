@@ -1,0 +1,12 @@
+#!/bin/bash
+I=1
+ACUM=0
+echo "introduce un numero"
+read numero1
+while [ $I -le $numero1 ]
+do
+let ACUM=$ACUM+$I
+let I=$I+1
+done
+
+echo $ACUM

@@ -1,0 +1,11 @@
+#!/bin/bash
+echo deme un nombre chupi guay
+read comando
+if [ -e $comando ]
+then 
+echo el archivo EXIIIISTe
+cat $comando
+else
+echo el archivo no existe
+fi
+

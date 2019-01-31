@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ -s ejercicioxs.txt ]
+then
+echo "Esta llenito"
+else 
+echo "ESta vacio"
+fi

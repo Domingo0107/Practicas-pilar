@@ -1,0 +1,12 @@
+#!/bin/bash
+function raul
+{
+if [ -e practica1.txt ]
+then
+echo "Ya existe"
+else
+touch practica1.txt
+chmod 770 practica1.txt
+fi 
+}
+raul

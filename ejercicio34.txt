@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Introduzca un numero"
+read numero1
+echo "Introduzca otro numero"
+read numero2
+echo "Introduce un simbolo válido (+ - / *)"
+read signo
+echo $(( $numero1 $signo $numero2 ))
+

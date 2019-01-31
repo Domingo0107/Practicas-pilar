@@ -1,0 +1,17 @@
+#!/bin/bash
+case $1
+in
+"hola")
+	echo Es HOLA
+;;
+"adiós")
+	echo Es ADIOS
+;;
+"Linux")
+	echo Es Linux
+;;
+*)
+	echo Es OTRA COSA
+;;
+esac
+
